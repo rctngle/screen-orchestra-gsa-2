@@ -1,0 +1,4 @@
+commands/individual/*
+!commands/individual/.individual
+node_modules
+.DS_Store

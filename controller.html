@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Controller</title>
+	<link rel="stylesheet" href="controller.css" />
+</head>
+<body>
+
+<h1>IP Address: <span id="ip"></span></h1>
+
+<main>
+	<div id="lists">
+		<article>
+			<h1>Shared</h1>
+			<p>
+				Create new animations in the commands/shared folder, as many as you want, whatever you want.<br />
+				Sync with GitHub Desktop and they will appear in the list.<br />
+				Create them in this format:
+			</p>
+
+			<ul>
+				<li>
+					Folder-With-Unique-Animation-Name
+					<ul>
+						<li>index.html</li>
+					</ul>
+				</li>
+			</ul>
+			<ul id="shared"></ul>
+		</article>
+
+		<article>
+			<h1>Individual</h1>
+			<p>
+				In the commands/individual folder, create the following folders, and in each an empty index.html file.<br />
+				rotate, slide, say, sing, pulse
+			</p>
+			<ul id="individual"></ul>
+		</article>
+	</div>
+</main>
+
+<script src="/vendor/socket.io/socket.io.js"></script>
+<script src="controller.js"></script>
+</body>
+</html>

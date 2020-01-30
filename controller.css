@@ -1,0 +1,23 @@
+body {
+	font-family: sans-serif;
+}
+
+li input {
+	display: none;
+}
+
+li.active input {
+	display: inline-block;
+}
+
+#lists {
+	display: flex;
+}
+
+article {
+	padding: 20px;
+}
+
+#animations {
+	columns: 2;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "screen-orchestra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://rctngle@github.com/rctngle/screen-orchestra.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rctngle/screen-orchestra/issues"
+  },
+  "homepage": "https://github.com/rctngle/screen-orchestra#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "ip": "^1.1.5",
+    "socket.io": "^2.3.0"
+  }
+}
